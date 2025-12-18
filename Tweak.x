@@ -13,6 +13,7 @@ static const NSInteger YTIcons = 'ytic';
 static const NSInteger YouChooseQuality = 'ycql';
 static const NSInteger YTUHD = 'ythd';
 static const NSInteger YouSlider = 'ytsl';
+static const NSInteger YTweaks = 'ytwk';
 
 NSBundle *TweakBundle() {
     static NSBundle *bundle = nil;
@@ -52,7 +53,7 @@ NSBundle *TweakBundle() {
             @(517), // DontEatMyContent
             @(1080), // Return YouTube Dislike
             @(YTUHD),
-            @(201), // YTweaks
+            @(YTweaks),
             @(YouChooseQuality),
             @(200), // YouPiP
             @(YouSlider),
